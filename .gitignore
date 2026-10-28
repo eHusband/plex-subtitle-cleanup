@@ -1,0 +1,12 @@
+# Script output - may contain your library paths
+*.csv
+*.partial
+
+# Video files, in case one is copied here for testing
+*.mkv
+*.mp4
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store

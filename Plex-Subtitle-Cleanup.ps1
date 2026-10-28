@@ -12,9 +12,9 @@
   Removed subtitle tracks cannot be restored.
 
 .EXAMPLE
-  .\Remove-ForeignSubs.ps1 -Root "\\Hippo\Videos\Movies"                    # dry run
-  .\Remove-ForeignSubs.ps1 -Root "\\Hippo\Videos\Movies" -Apply -Limit 3    # test on 3 files
-  .\Remove-ForeignSubs.ps1 -Root "\\Hippo\Videos\Movies" -Apply             # full run
+  .\Plex-Subtitle-Cleanup.ps1 -Root "\\NAS\Videos\Movies"                    # dry run
+  .\Plex-Subtitle-Cleanup.ps1 -Root "\\NAS\Videos\Movies" -Apply -Limit 3    # test on 3 files
+  .\Plex-Subtitle-Cleanup.ps1 -Root "\\NAS\Videos\Movies" -Apply             # full run
 #>
 param(
     [Parameter(Mandatory)][string]$Root,
